@@ -1,0 +1,20 @@
+{
+  "name": "cloudflare-vitest-plugin-workspace",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "@cloudflare/vitest-plugin workspace issue with paths",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@cloudflare/vitest-pool-workers": "^0.7.8",
+    "vitest": "^3.0.8"
+  }
+}
